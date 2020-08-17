@@ -20,8 +20,8 @@ body {
     cursor: pointer;
 }
 
-.card:after,
-.card:before {
+.card::after,
+.card::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -31,23 +31,23 @@ body {
     transition: transform .3s ease-in-out;
 }
 
-.card:before {
+.card::before {
     border-left: 1px solid black;
     border-right: 1px solid black;
     transform: scaleY(0);
 }
 
-.card:after {
+.card::after {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     transform: scaleX(0);
 }
 
-.card:hover:before {
+.card:hover::before {
     transform: scaleY(1);
 }
 
-.card:hover:after {
+.card:hover::after {
     transform: scaleX(1);
 }
 

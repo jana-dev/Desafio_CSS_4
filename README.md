@@ -8,5 +8,5 @@
 - transition: transform
 - transform: scaleY() scaleX()
 
-![Imagem em gif do card animado com hover](https://github.com/jana-dev/Desafio_CSS_4/blob/master/css4.gif)
+- https://jana-dev.github.io/Desafio_CSS_4/
 
